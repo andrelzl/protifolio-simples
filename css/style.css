@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.cabecalho {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border: solid 5px rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-botao-header {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-top: px;
+    width: 50%;
+}
+
+.logo-header{
+    width: 200px;
+    height: 200px;
+}
+.rodape {
+    background-color: rgb(236, 43, 43);
+
+}
+
+body {
+    margin: 0px;
+}
+
+.logos{
+    display: flex;
+    justify-content: right;
+    gap: 60px;
+}
+
+.logo1{
+    width: 60px;
+    height: 60px;
+}
+
+.logo2{
+    width: 60px;
+    height: 60px;
+}
+
+.logo3{
+    width: 60px;
+    height: 60px;
+}
+
+.cabecalho-titulo {
+    font-family: "Oswald", serif;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+
+.cabecalho-subtitulo {
+    font-family: "Oswald", serif;
+    color: rgb(255, 0, 0);
+
+}
+
+.div-video-container {
+    max-height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.video-player {
+    margin-top: -190px;
+    width: 100%;
+}
+
+.video-source {
+    height: auto;
+}
+
+.video-principal {
+    width: 60%;
+}
+
+.div-conteudo{
+    align-items: start;
+    display: flex;
+    gap: 10px 20px;
+    justify-content: center;
+    height: 400x;
+    padding: 20px;
+    border: solid 5px rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.div-botao {
+    height: 150px;
+    width: 150px;
+    border: 2px transparent;
+}
